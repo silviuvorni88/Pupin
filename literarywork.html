@@ -33,8 +33,41 @@
       border-left: solid;
       padding: 10px;
       margin: 3 px;
-
-    }
+      table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+      }
+}
+ 
+th {
+  padding: 18px;
+}
+ 
+td {
+  padding: 12px;
+}
+ 
+th,
+td {
+  border: solid 1px #e6e6e6;
+}
+ 
+tr {
+  background-color: #EDEDED;
+}
+ 
+tr.even {
+  background-color: #F7F7F7;
+}
+ 
+#heading {
+  background-color: #3002ad;
+  color: white;
+}
+  
+  
   </style>
 
 
@@ -61,14 +94,44 @@
 
     <b>Beside this he also published:</b>
 
+    <hr>
+
     <table>
-        <tr>Pupin Michael:Serbian Orthodox Church, J. Murray. London, 1918.</tr>
-        <tr>Pupin Michael:Yugoslavia. (In Association for International Conciliation Amer. Branch —Yugoslavia). American Association for International Conciliation. 1919.</tr>
-        <tr>Pupin Michael:The New Reformation; from Physical to Spiritual Realities, Scribner, New York, 1927.</tr>
-        <tr>Pupin Michael:Romance of the Machine, Scribner, New York, 1930</tr> 
-        <tr>Pupin Michael:Discussion by M. Pupin and other prominent engineers in “Toward Civilization, edited by C. A. Beard. Longmans, Green& Co. New York, 1930.</tr>
-    </table>
-</section>
+      <table>
+        <tr id="heading">
+          <th>Title</th>
+          <th>Publishing House</th>
+          <th> PLace and Year</th>
+        </tr>
+        <tr class="even">
+          <td>Serbian Orthodox Church</td>
+          <td>J. Murray</td>
+          <td>1918</td>
+     
+        </tr>
+        <tr>
+          <td>Yugoslavia. (In Association for International Conciliation Amer. Branch —Yugoslavia)</td>
+          <td>American Association for International Conciliation</td>
+          <td>1919</td>
+        </tr>
+        <tr class="even">
+          <td>The New Reformation ;from Physical to Spiritual Realities, Scribner</td>
+          <td>New York</td>
+          <td>1927</td>
+        </tr>
+        <tr>
+          <td>Romance of the Machine,Scribner</td>
+          <td>New York</td>
+          <td>1930</td>
+        </tr>
+        <tr class="even">
+          <td>Discussion by M. Pupin and other prominent engineers in “Toward Civilization</td>
+          <td>C. A. Beard. Longmans, Green& Co. New York</td>
+          <td>1930</td>
+        </tr>
+      </table>
+  </table>
+  </section>
     
 </body>
 </html>
